@@ -1,5 +1,5 @@
 # Saqta drone radio telemetry system & esp32-rf-comms
-This folder is about executing radio transmission commands via esp32 and Nrf24l01, showcasing increasing difficulty of data transmission
+This project is about creating a real time climate feedback system for Saqta drone project, and  executing radio transmission commands via esp32 and Nrf24l01, showcasing increasing difficulty of data transmission
 ## Stages
 
 | Folder | What it does | Key concept learned |
