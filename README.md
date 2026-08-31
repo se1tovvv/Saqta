@@ -13,9 +13,9 @@ This folder is about executing radio transmission commands via esp32 and Nrf24l0
 
 ---
 
-## Stage 03 — Climate Telemetry (current flagship)
+## Stage 03 — Climate Telemetry 
 
-A wireless climate monitoring system across two independent ESP32 boards. The transmitter reads a set of environmental sensors, packs the readings into a struct, and sends them over the NRF24L01. The receiver unpacks the struct and shows live values on an OLED — no USB tether, each board runs on its own battery. This stage is significantly different from second, as debug with Serial Monitor and SSD1306 was added to ensure smooth user experience.
+A wireless climate monitoring system across two independent ESP32 boards for Saqta hexacopter drone project. The transmitter reads a set of environmental sensors, packs the readings into a struct, and sends them over the NRF24L01. The receiver unpacks the struct and shows live values on an OLED — no USB tether, each board runs on its own battery. This stage is significantly different from second, as debug with Serial Monitor and SSD1306 was added to ensure smooth user experience.
 
 ### Hardware
 - 2× ESP32 (38-pin) — one transmitter, one receiver
