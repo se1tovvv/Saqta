@@ -2,7 +2,7 @@
 
 Saqta is a firefighting drone I built to fly over a wildfire, sense it, and drop a **CO2 fire-extinguishing ball** onto the flames — the ball bursts on contact with fire and smothers it. Alongside the drop payload it carries a wireless fire-and-climate sensing system that relays live readings back to the ground. This repo holds both halves of the project: the **drone platform** (airframe, motors, flight electronics, and the drop payload) and the **radio telemetry system** (the ESP32 + NRF24L01 climate station that rides on it).
 
-![Saqta hexacopter](Hexacopter.jpg)
+![Saqta hexacopter](images/Hexacopter.jpg)
 
 > Built with a friend, originally for **World Robot Olympiad (WRO) 2024**. I led the **hardware** — airframe, motors, flight electronics, wiring, and the telemetry boards; he built the **computer-vision software**. We tested the flights together and split the cost of the parts.
 
@@ -12,7 +12,7 @@ It started as a **quadcopter**, then I swapped the frame for a **hexacopter** to
 
 | Hexacopter (current) | Quadcopter (first build) |
 | --- | --- |
-| ![Saqta hexacopter](Hexacopter.jpg) | ![Saqta quadcopter](Quadrocopter.jpg) |
+| ![Saqta hexacopter](images/Hexacopter.jpg) | ![Saqta quadcopter](images/Quadrocopter.jpg) |
 
 **Platform**
 - Hexacopter frame — upgraded from the original quad for thrust and payload capacity
@@ -30,7 +30,7 @@ It started as a **quadcopter**, then I swapped the frame for a **hexacopter** to
 
 A real-time climate-feedback system for Saqta: two independent ESP32 boards send live environmental data over NRF24L01, built up in stages of increasing difficulty.
 
-![Telemetry TX and RX boards running live — temperature, humidity, flame and gas readings](Project%20photo%20%281%29.jpg)
+![Telemetry TX and RX boards running live — temperature, humidity, flame and gas readings](images/On-board-telemetry.jpg)
 
 ### Stages
 
